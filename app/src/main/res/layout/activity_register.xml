@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login.LoginActivity"
-    android:orientation="vertical"
-    android:layout_gravity="center">
+    tools:context=".Login.RegisterActivity"
+    android:orientation="vertical">
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etUsername"
+        android:id="@+id/etRusername"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etPassword"
+        android:id="@+id/etRpassword"
         />
-    <Button
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSignup"/>
-/>
+        android:id="@+id/etbtnResister"
+        />
+
 </LinearLayout>
