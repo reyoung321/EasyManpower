@@ -23,7 +23,8 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 
 public class Dashboard extends AppCompatActivity {
-
+int b;
+int a;
     private AppBarConfiguration mAppBarConfiguration;
 
     @Override
