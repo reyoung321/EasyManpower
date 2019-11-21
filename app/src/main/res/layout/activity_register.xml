@@ -16,11 +16,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etRpassword"
+        android:hint="Password"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etbtnResister"
+        android:id="@+id/etRcpassword"
+        android:hint="Confirm Password"
         />
+
+    <Button
+        android:id="@+id/etbtnResister"
+        android:hint="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
